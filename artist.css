@@ -1,0 +1,100 @@
+.container{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.clearfix {
+       overflow: auto;
+}
+/*Menu*/
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+	overflow-x: hidden;
+}
+.nav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	opacity: .9;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.7s;
+}
+.nav a {
+	display: block;
+	padding: 20px 30px;
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+}
+.nav .link:hover {
+	background-color: blue;
+	transition: 0.4s;
+}
+.nav .close {
+	position:absolute;
+	top: 0;
+	right: 22px;
+	margin-left: 50px;
+	font-size: 30px;
+}
+.nav .close:hover {
+	color: blue;
+}
+
+.slide a {
+	color: #000;
+	font-size: 36px;
+}
+.slide a:hover {
+	color: blue;
+}
+#content {
+	padding: 20px;
+	transition: margin-left 0.7s;
+	overflow: hidden;
+	width: 100%;
+}
+
+/*responsive container*/
+.container1{
+	width:90%;
+	overflow: hidden;
+	margin: 20px auto;
+	padding:20px 0px;
+}
+			
+.container1 ul{
+	padding: 0px;
+	margin: 0px;
+}
+			
+.container1 ul li {
+	list-style: none;
+	float: left;
+	width: 20%;
+	height:300px;
+	background: #f5f5f5;
+	margin: 40px 20px 0px 20px;
+	box-sizing: border-box;
+	border:2px solid white;
+}
+			
+.container1 ul li .title{
+	width:100%;
+	height:50px;
+	line-height: 50px;
+	background: white;
+	text-align: center;
+}
+			
+@media screen and (max-width:1250px){
+	.container1 ul li{
+		width:40%;
+		margin-left: 50px;
+	}
+}
