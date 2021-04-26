@@ -16,7 +16,7 @@ footer {
 	width: 100%;
 	height: auto;
 	padding: 50px 100px;
-	background: #040406;
+	background: #063352;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -44,7 +44,7 @@ footer .container .aboutus h2:before{
 	left: 0;
 	width: 50px;
 	height: 3px;
-	background: #e86100;
+	background: #ffcc33;
 }
 footer .container .aboutus p{
 	color: #999;
@@ -62,7 +62,7 @@ footer .container .quickLinks h2:before {
 	left: 0;
 	width: 50px;
 	height: 3px;
-	background: #e86100;
+	background: #ffcc33;
 }
 .quickLinks {
 	position: relative;
@@ -76,6 +76,9 @@ footer .container .quickLinks h2:before {
 	text-decoration: none;
 	margin-bottom: 8px;
 	display: inline-block;
+}
+.quickLinks ul li a:hover {
+	color: #ffcc33;
 }
 .contactus {
 	width: calc(35% - 60px);
@@ -94,7 +97,7 @@ footer .container .contactus h2:before {
 	left: 0;
 	width: 50px;
 	height: 3px;
-	background: #e86100;
+	background: #ffcc33;
 }
 .contactus .info {
 	position: relative;
@@ -142,7 +145,7 @@ body {
 	color: white;
 }
 .nav .link:hover {
-	background-color: blue;
+	background-color: #ffcc33;
 	transition: 0.4s;
 }
 .nav .close {
@@ -153,7 +156,7 @@ body {
 	font-size: 30px;
 }
 .nav .close:hover {
-	color: blue;
+	color: #ffcc33;
 }
 
 .slide a {
@@ -161,7 +164,7 @@ body {
 	font-size: 36px;
 }
 .slide a:hover {
-	color: blue;
+	color: #ffcc33;
 }
 #content {
 	padding: 20px;
@@ -169,4 +172,24 @@ body {
 	overflow: hidden;
 	width: 100%;
 }
-
+@media screen and (min-width: 900px) {
+	img {
+		float: left; 
+		width: 40%; 
+		height:auto; 
+		margin-right: 30px;
+		max-width:500px;
+		max-height: 500px;
+	}
+}
+@media screen and (max-width: 900px) {
+	img {
+		float: left; 
+		width: 50%; 
+		height:auto; 
+		margin-right: 30px;
+	}
+	p {
+		font-size:70%;
+	}
+}

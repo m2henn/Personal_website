@@ -101,7 +101,7 @@ footer .container .aboutus h2:before{
 	left: 0;
 	width: 50px;
 	height: 3px;
-	background: #e86100;
+	background: #4166f5;
 }
 footer .container .aboutus p{
 	color: #999;
@@ -119,7 +119,7 @@ footer .container .quickLinks h2:before {
 	left: 0;
 	width: 50px;
 	height: 3px;
-	background: #e86100;
+	background: #4166f5;
 }
 .quickLinks {
 	position: relative;
@@ -129,10 +129,13 @@ footer .container .quickLinks h2:before {
 	list-style: none;
 }
 .quickLinks ul li a {
-	color: #999;
+	color: white;
 	text-decoration: none;
 	margin-bottom: 8px;
 	display: inline-block;
+}
+.quickLinks ul li a:hover {
+	color: blue;
 }
 .contactus {
 	width: calc(35% - 60px);
@@ -151,7 +154,7 @@ footer .container .contactus h2:before {
 	left: 0;
 	width: 50px;
 	height: 3px;
-	background: #e86100;
+	background: #4166f5;
 }
 .contactus .info {
 	position: relative;
@@ -173,3 +176,51 @@ footer .container .contactus h2:before {
 	margin-left:10%;
 	margin-right: 10%;
 }
+
+.card-container{
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.card{
+	background: white;
+	width: 350px;
+	margin: 10px;
+}
+
+.card-img {
+	height: 170px;
+	margin-bottom: 15px;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.img-1{
+	background-image: url('https://www.nkytribune.com/wp-content/uploads/2018/12/Ryle-High-School.gif')
+}
+
+.img-2{
+	background-image: url('https://th.bing.com/th/id/Rca39a5c101dcebffd200849d31e98510?rik=nwW%2bR33YqA4wEw&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fb%2fb0%2fNKU-lake-1.jpg&ehk=9gN%2fYzYdROx91KlWOeCAe1bTATz%2fZvOnApaS%2f0h8ur8%3d&risl=&pid=ImgRaw')
+}
+
+.img-3{
+	background-image: url('https://www.nku.edu/content/inside/artsci/centers/cinsam/nkustudents/urstemstudents/_jcr_content/par/columncontrol/column-2/columncontrol/column-1/image.img.jpg/1248430978.jpg')
+}
+
+.card h2{
+	padding: 10px;
+	text-align: center;
+}
+
+.card p{
+	
+	text-align: center;
+}
+
+.card extra {
+	font-weight: 500;
+	padding: 10px;
+}
+
+
